@@ -1,0 +1,248 @@
+button,a.button {
+  padding: 8px 13px;
+  border: 2px solid white;
+  border-radius: 100px;
+  }
+button:hover,a.button:hover{
+  background-color: white;
+  color:black;
+  }
+button {
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+    }
+body {
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(255, 238, 0, 0.3);
+  }
+.Hidden{
+  display: none;
+}
+@media (max-width: 500px) {
+    body {
+    font-size: 14px;
+    } 
+  }
+
+div#intestazione{
+  font-size: 2em;
+  color: rgb(7, 170, 129);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 80%;
+  padding-left: 90px;
+  }
+@media(max-width:500px){
+    div#intestazione{
+    padding-left: 30px;
+    }
+  }
+ 
+footer,header h1 ,#links {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  }
+#links{
+  line-height: 60px;
+}
+.contenuto,footer,header,nav,.Box2 {
+  display: flex;
+  }
+
+.Box2{
+  font-family: 'Oswald', sans-serif;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;  
+  }
+.Box2 h1{
+  margin-bottom: 0;
+  flex-grow: 1;
+ }
+
+.Box2 p{
+  margin-top: 0;
+  text-decoration: underline;
+  }
+  @media (max-width: 500px) {
+    .Box2 {
+      /*font-size:18,2px*/
+      font-size: 1.3em;
+      }
+    }
+.contenuto {  
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+@media (max-width: 500px) {
+  .contenuto {
+    flex-direction: column;
+    }
+  }
+  
+.contenuto div.Box1 {
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  width: 500px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+
+@media (max-width: 500px) {
+    .contenuto div.Box1{
+    width: 300px;
+    padding:5px;
+    margin-right: 0;
+    margin-left: 0;
+    /*font-size:16,8px*/
+    font-size: 1.2em;
+    }
+  }
+.contenuto img { 
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  }
+.contenuto img#torta1 {
+  width: 55%;
+  }
+.contenuto img#torta2 {
+  width: 45%;
+  }
+.contenuto h1 {
+  font-weight:bold;
+  letter-spacing: 2px;
+  }
+.Ricetta{
+  font-weight:bold;
+  line-height: 1.5;
+  }
+footer {
+  background-color: rgb(54, 21, 8);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  justify-content: space-between;
+  font-size: 0.7em;
+  }
+header {
+  color: white;
+  background-image: url("download.jfif");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+@media (max-width: 500px) {
+  header {
+    height: 300px;
+    line-height: 1.2;
+    }
+  }
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+header h1 {
+  font-weight: normal;
+  z-index: 1;
+   /*font-size: 38px;*/
+  font-size: 1.9em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  }
+    
+header h1 a {
+  /*font-size: 16px;*/
+  font-size: 0.8em;
+  }
+  
+    
+@media (max-width: 500px) {
+  header h1 {
+    /*font-size: 28px;*/
+    font-size: 2em;
+    letter-spacing: 4px;
+    }
+  }
+  
+header nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*font-size: 14px;*/
+  font-size: .7em;
+  padding: 20px;
+  justify-content: space-between;
+  }
+
+  
+#menu {
+  display: none;
+  }
+  
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  }
+  
+@media (max-width: 500px) {
+  #links {
+    display: none;
+    }
+  #menu {
+    display: block;
+    }
+  }
+  
+  
+#links a {
+  margin: 15px;
+  }  
+
+p {
+  /*line-height: 36px;*/
+  line-height: 1.8em;
+  text-align: left;
+  }
+  
+section {
+  margin: 80px 80px;
+  padding: 20px 20px;
+  border: 2px dashed gray;
+  }
+  
+@media (max-width: 500px) {
+  section {
+    margin: 40px 10px;
+    }
+  }
+h1.Ricetta{
+  font-size: 2em;
+  }
+.Spotify .Box1{
+     font-family: sans-serif;
+}
